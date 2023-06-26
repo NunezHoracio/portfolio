@@ -20,10 +20,7 @@ const Skills = () => {
       <Container>
         <h3 className="subtitle text-center mb-2">Skills</h3>
         <p className="text-center info">
-        Estas son solo algunas de las habilidades y tecnologías que he adquirido y perfeccionado en mi viaje como desarrollador frontend. Mi pasión por el aprendizaje continuo me impulsa a mantenerme actualizado con las últimas tendencias y herramientas del mundo del desarrollo web.
-        </p>
-        <p className="text-center mb-5 info">
-        Aquí podrás apreciar algunas tecnologías que he usado en el desarrollo de diferentes proyectos.
+        Estas son algunas de las habilidades y tecnologías que he adquirido y perfeccionado en mi viaje como desarrollador frontend. Mi pasión por el aprendizaje continuo me impulsa a mantenerme actualizado con las últimas tendencias y herramientas.
         </p>
         <div className="skills-container d-flex justify-content-around flex-wrap"  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">
           <SkillItem name={"HTML"}  time={"3s"}>
