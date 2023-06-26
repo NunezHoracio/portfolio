@@ -1,0 +1,8 @@
+.footer{
+    background-color: var(--light-blue);
+    color: var(--light-gray);
+}
+
+.footer-name{
+    color: var(--lighter-blue-hover);
+}

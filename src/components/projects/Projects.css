@@ -1,0 +1,68 @@
+.projects{
+    background-image: linear-gradient(to bottom, #121e31, #18263c, #1e2e48, #243655, #2a3f61);
+    color: var(--white);
+}
+
+.cards-container{
+    background: url('../../assets/img/banner-bg.jpg');
+    border-radius: 10px;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo transparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* Efecto de desenfoque para navegadores basados en WebKit */
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-left: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+    z-index: 10;
+}
+.card-info{
+    color: var(--white);
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+.card-link_button{
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    background-color: rgba(202, 202, 202, .3);
+    color: var(--white);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.card-link_button:hover{
+    background-color: rgba(0, 210, 235, .5);
+    border-color: var(--white);
+    color: var(--white);
+    box-shadow: 0 0 15px var(--lighter-blue-hover);
+    transform: scale(1.05);
+}
+
+.container{
+    position: relative;
+}
+
+.img-planet_project{
+    width: 200px;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .7));
+    animation: rotation 40s linear infinite;
+}
+
+@keyframes rotation{
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+}

@@ -1,0 +1,83 @@
+/* Estilos para los enlaces de navegación */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo transparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* Efecto de desenfoque para navegadores basados en WebKit */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.modal-content{
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo transparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* Efecto de desenfoque para navegadores basados en WebKit */
+    color: var(--white);
+    border: 5px solid var(--lighter-blue-hover);
+    box-shadow: 0 0 15px var(--lighter-blue-hover);
+}
+
+.navbar button{
+    background-color: var(--white);
+}
+
+.navbar button:focus:not(:focus-visible){
+    color: transparent
+}
+
+.modal-footer .cancel-button{
+    border: none;
+    padding: 10px 15px;
+    font-weight: 700;
+    background: transparent;
+    color: var(--light-blue-hover);
+    transition: .5s;
+}
+
+.navbar-brand img{
+    width: 40px;
+    transition: .5s;
+}
+
+.navbar-brand img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px rgba(0,0,0, .5));
+}
+
+.navbar-nav .nav-link{
+    color: var(--white);
+    font-weight: 700;
+    transition: .5s;
+    margin: 0 20px;
+}
+
+.navbar-nav .nav-link:hover{
+    color: var(--lighter-blue-hover);
+}
+
+.navbar-nav .nav-link.active{
+    color: var(--lighter-blue-hover);
+    text-shadow: 0 0 15px var(--lighter-blue-hover);
+}
+
+.navbar-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-text .navbar-button, .modal-footer .navbar-button{
+    border-radius: 10px;
+    border: 2px solid var(--lighter-blue-hover);
+    padding: 10px 15px;
+    font-weight: 700;
+    background: transparent;
+    color: var(--lighter-blue-hover);
+    transition: .5s;
+}
+
+.navbar-text .navbar-button:hover, .modal-footer .navbar-button:hover{
+    background-color: rgba(0, 210, 235, .5);
+    border-color: var(--white);
+    color: var(--white);
+    box-shadow: 0 0 15px var(--lighter-blue-hover);
+    transform: scale(1.05);
+}

@@ -1,0 +1,85 @@
+.banner{
+    background: url('../../assets/img/banner-bg.jpg');
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.tagline{
+    color: var(--white);
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.banner_main-title{
+    color: var(--white);
+    margin: 0;
+    font-weight: 700;
+}
+
+.banner_name{
+    color: var(--lighter-blue);
+    text-shadow: 0 0 20px var(--lighter-blue-hover);
+    font-size: 2.5em;
+    animation: light-name 2.5s ease-in-out infinite;
+}
+
+@keyframes light-name {
+    0% {text-shadow: 0 0 0px var(--lighter-blue-hover)}
+    50% {text-shadow: 0 0 20px var(--lighter-blue-hover); color: var(--white);}
+    100% {text-shadow: 0 0 0px var(--lighter-blue-hover);}
+}
+
+.wrap{
+    color: var(--light-gray);
+    font-size: 2em;
+    margin-top: -15px;
+}
+
+.banner_main-text{
+    color: var(--white);
+    font-size: 1.3em;
+}
+
+.social-media .social-media__icon{
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo transparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(10px);
+    transition: .5s;
+}
+
+.social-media .social-media__icon:hover{
+    background-color: rgba(0, 210, 235, .5);
+    border-color: var(--white);
+    color: var(--white);
+    box-shadow: 0 0 15px var(--lighter-blue-hover);
+    transform: scale(1.05);
+}
+
+.spacesuit-img{
+    width: 100%;
+    top: 20px;
+    animation: avatarMove 4s ease-in-out infinite;
+}
+
+@keyframes avatarMove {
+    0%   {transform:translateY(-20px)}
+    50% {transform:translateY(20px)}
+    100% {transform:translateY(-20px)}
+}
+
+@media only screen and (max-width: 1200px) {
+    .banner{
+        height: auto;
+    }
+  }
+

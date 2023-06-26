@@ -1,0 +1,10 @@
+.skills{
+    color: var(--white);
+    background-color: var(--dark-blue);
+}
+
+.skill-logo{
+    width: 100px;
+    height: 100px;
+}
+
