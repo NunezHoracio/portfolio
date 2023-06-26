@@ -19,7 +19,7 @@ const Projects = () => {
       <Container>
         <h3 className="subtitle text-center mb-2">Proyectos</h3>
         <p className="text-center info">
-        Quiero compartir con ustedes algunos de los proyectos en los que he trabajado. Estoy emocionado de mostrarles mi trabajo y cómo he aplicado mis habilidades de desarrollo frontend.
+          Quiero compartir con ustedes algunos de los proyectos en los que he trabajado. Estoy emocionado de mostrarles mi trabajo y cómo he aplicado mis habilidades de desarrollo frontend.
         </p>
         <div
           className="cards-container d-flex justify-content-around flex-wrap pt-5 mt-3"

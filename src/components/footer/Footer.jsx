@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import './Footer.css';
 
 const Footer = () => {
-    return (  
+    return (
         <footer className="footer pt-5 pb-3">
             <Container>
                 <p className="text-center">Desarrollado por <span className="footer-name">Horacio Rodolfo Nuñez</span> </p>
@@ -10,5 +10,5 @@ const Footer = () => {
         </footer>
     );
 }
- 
+
 export default Footer;
