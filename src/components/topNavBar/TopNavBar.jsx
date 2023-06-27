@@ -53,7 +53,7 @@ const TopNavBar = () => {
                     </button>
                 </Modal.Footer>
             </Modal>
-            <Navbar expand="lg" fixed='top'>
+            <Navbar expand="lg" fixed='top' className="ps-5 pe-5">
                 <Container fluid>
                     <Navbar.Brand href="#home">
                         <img src={logo} alt="Logo" />
