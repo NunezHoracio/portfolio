@@ -15,21 +15,21 @@
     box-shadow: 0 0 15px var(--lighter-blue-hover);
 }
 
-.navbar button{
-    background-color: var(--white);
-}
-
-.navbar button:focus:not(:focus-visible){
-    color: transparent
-}
-
-.modal-footer .cancel-button{
+.cancel-button{
     border: none;
     padding: 10px 15px;
     font-weight: 700;
     background: transparent;
     color: var(--light-blue-hover);
     transition: .5s;
+}
+
+.navbar button{
+    background-color: var(--white);
+}
+
+.navbar button:focus:not(:focus-visible){
+    color: var(--lighter-blue-hover)
 }
 
 .navbar-brand img{
@@ -64,7 +64,7 @@
     align-items: center;
 }
 
-.navbar-text .navbar-button, .modal-footer .navbar-button{
+.navbar-text .navbar-button, .navbar-button{
     border-radius: 10px;
     border: 2px solid var(--lighter-blue-hover);
     padding: 10px 15px;
@@ -74,7 +74,7 @@
     transition: .5s;
 }
 
-.navbar-text .navbar-button:hover, .modal-footer .navbar-button:hover{
+.navbar-text .navbar-button:hover, .navbar-button:hover{
     background-color: rgba(0, 210, 235, .5);
     border-color: var(--white);
     color: var(--white);
