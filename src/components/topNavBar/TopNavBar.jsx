@@ -21,7 +21,7 @@ const TopNavBar = () => {
 
     return (
         <>
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} centered>
                 <Modal.Header>
                     <Modal.Title>Envíame un mensaje</Modal.Title>
                 </Modal.Header>

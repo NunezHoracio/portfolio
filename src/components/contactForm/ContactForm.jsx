@@ -6,7 +6,7 @@ const ContactForm = ({ handleClose }) => {
     if (state.succeeded) {
         return (
             <>
-                <p className="text-center p-3 info">Gracias por escribirme! Te responderé a la brevedad</p>
+                <p className="text-center p-3 info">Gracias por escribirme!</p>
                 <p className="text-center p-3 info">Te responderé a la brevedad</p>
                 <button className="cancel-button" onClick={handleClose}>
                     <span className="titulo">Cerrar</span>
