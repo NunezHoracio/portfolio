@@ -29,24 +29,15 @@ const Banner = () => {
 
               </div>
               <p className="banner_main-text mt-3 text-md-start text-center">
-                Soy Técnico Universitario en Programación, graduado de la  UTN de Tucumán, Argentina.
+                Soy Técnico Universitario en Programación, graduado de la  Universidad Tecnológica Nacional en Tucumán, Argentina.
               </p>
               <p className="banner_main-text text-md-start text-center">
-                Me gusta mucho escuchar lo-fi hip hop, y por supuesto, no puedo empezar mi día sin una buena taza de café.
+                Me gusta mucho escuchar lo-fi y, por supuesto, no puedo empezar mi día sin una buena taza de café.
               </p>
               <p className="banner_main-text text-md-start text-center">
-                Mi mayor pasión es el desarrollo web frontend. Tener la posibilidad de dar vida a través del código a elementos visuales y funcionales es algo que me fascina. Me encantaría conectarme con ustedes por eso los invito a pasar por  mis redes sociales.
+                Mi mayor pasión es el desarrollo web frontend. Tener la posibilidad de dar vida a través del código a elementos visuales y funcionales es algo que me fascina. Me encantaría conectarme con ustedes por eso los invito a pasar por mis perfiles de Github y Linkedin.
               </p>
               <div className="social-media">
-                <a href="https://www.youtube.com/@mocaCode/featured" target="_blank" rel="noopener noreferrer">
-                  <BsYoutube className="p-2 me-3 social-media__icon" />
-                </a>
-                <a href="https://www.instagram.com/mocacodedev/" target="_blank" rel="noopener noreferrer">
-                  <BsInstagram className="p-2 me-3 social-media__icon" />
-                </a>
-                <a href="https://www.tiktok.com/@mocacode" target="_blank" rel="noopener noreferrer">
-                  <BsTiktok className="p-2 me-3 social-media__icon" />
-                </a>
                 <a href="https://github.com/NunezHoracio" target="_blank" rel="noopener noreferrer">
                   <BsGithub className="p-2 me-3 social-media__icon" />
                 </a>
